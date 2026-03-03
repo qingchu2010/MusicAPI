@@ -1,0 +1,21 @@
+{
+  "name": "music-api",
+  "version": "1.0.0",
+  "description": "A bandwidth-optimized Music API",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "scan": "node src/cli/scan.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "better-sqlite3": "^9.2.2",
+    "music-metadata": "^8.1.4",
+    "uuid": "^9.0.0",
+    "sharp": "^0.33.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
